@@ -1,0 +1,108 @@
+
+# ==========================================================
+# CM CYBEROPS — PUBLIC PROJECT TEMPLATE
+# Generic .gitignore
+# ==========================================================
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+credentials.json
+secrets.json
+*.tfstate
+*.tfstate.*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+dist/
+build/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Node.js
+node_modules/
+.npm/
+coverage/
+.next/
+.nuxt/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating systems
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+*.swp
+
+# Local databases and dumps
+*.sqlite
+*.sqlite3
+*.db
+*.sql.gz
+*.dump
+
+# Infrastructure credentials
+.terraform/
+terraform.tfvars
+*.auto.tfvars
+kubeconfig
+kubeconfig.*
+.ssh/
+
+# Local archives and backups
+*.zip
+*.7z
+*.rar
+*.tar.gz
+*.backup
+
+# Local forensic and VM artifacts
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.qcow2
+*.ova
+*.ovf
+*.pcap
+*.pcapng
+*.mem
+*.raw
+
+# ==========================================================
+# REVIEW BEFORE PUBLICATION
+# These rules are generic and may require adjustments
+# for individual projects.
+# ==========================================================
